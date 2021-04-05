@@ -1,0 +1,33 @@
+ul li a{
+    display: block;
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px;
+    font-size: 20px;
+    
+}
+li:hover{
+    background-color:rgba(0, 0,0, .1);
+}
+li:active{
+    background-color:rgba(0, 0,0, .8);
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    left: 0;
+}
+
+li{
+    float: left;
+}
+.content{
+    margin-top: 60px;
+}
